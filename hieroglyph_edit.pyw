@@ -529,8 +529,10 @@ class TextEdit(QTextEdit):
         
         if self.writingSystem == ko_KR:
             self.setExtraSelections([])
-            self.hangulIsEditting = self.insertHangul(tc, event)
-            self.hangulUpdate(tc,event)
+            if self.keyDicts[event.key()] != -1:
+                
+                self.hangulIsEditting = self.insertHangul(tc, event)
+                self.hangulUpdate(tc,event)
             return
 
             
