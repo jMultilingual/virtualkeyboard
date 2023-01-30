@@ -9748,7 +9748,6 @@ with con:
     from hangul import ww_oe
     from hangul import ww_uo
     from hangul import ww_oi
-    #TODO　未完成
     from hangul import ww_uui
     from hangul import ww_ye
     dic += piup_vowel.dic  
