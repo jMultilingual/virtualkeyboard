@@ -464,6 +464,13 @@ class TextEdit(QTextEdit):
         if self.keyDicts[event.key()] != -1:
             self.keyDicts[event.key()].setFlat(True)
 
+        if event.keyCombination() in AK and self.keyDicts[event.key()] != -1:
+            tc.insertText(self.keyDicts[event.key()].upperLeft)
+            return
+        elif event.keyCombination() in AKC and self.keyDicts[event.key()] != -1:
+            tc.insertText(self.keyDicts[event.key()].upperRight)
+            return
+
         if event.key() == Qt.Key_Escape:
             if self.listwidget.isVisible():
                 
@@ -543,11 +550,9 @@ class TextEdit(QTextEdit):
 
         
         if self.writingSystem == ko_KR:
-            
-            if self.keyDicts[event.key()] != -1:
-                self.setExtraSelections([])
-                self.hangulIsEditting = self.insertHangul(tc, event)
-                self.hangulUpdate(tc,event)
+            self.setExtraSelections([])
+            self.hangulIsEditting = self.insertHangul(tc, event)
+            self.hangulUpdate(tc,event)
             return
 
             
@@ -560,6 +565,13 @@ class TextEdit(QTextEdit):
 
         if self.keyDicts[event.key()] != -1:
             self.keyDicts[event.key()].setFlat(False)
+
+        if event.keyCombination() in AK and self.keyDicts[event.key()] != -1:
+           
+            return
+        elif event.keyCombination() in AKC and self.keyDicts[event.key()] != -1:
+         
+            return
 
         if event.key() == Qt.Key_Backspace:
             if self.writingSystem == ko_KR:
