@@ -20,6 +20,7 @@ class KeyDict(dict):
             self[i] = other_dict[i]
 
         return self
+
     
 BopomofoCharacterLists = [chr(i) for i in range(0x03105, 0x0312E)]
 BopomofoConsonantLists = [chr(i) for i in range(0x03105, 0x0311A)]
@@ -416,6 +417,142 @@ Key_Shift_Asciicircum = QKeyCombination(Qt.ShiftModifier, Qt.Key_AsciiCircum)
 Key_Shift_BracketLeft = QKeyCombination(Qt.ShiftModifier, Qt.Key_BracketLeft)
 Key_Shift_BracketRight = QKeyCombination(Qt.ShiftModifier, Qt.Key_BracketRight)
 
+Key_Alt_F1 = QKeyCombination(Qt.AltModifier, Qt.Key_F1)
+Key_Alt_F2 = QKeyCombination(Qt.AltModifier, Qt.Key_F2)
+Key_Alt_F3 = QKeyCombination(Qt.AltModifier, Qt.Key_F3)
+Key_Alt_F4 = QKeyCombination(Qt.AltModifier, Qt.Key_F4)
+Key_Alt_F5 = QKeyCombination(Qt.AltModifier, Qt.Key_F5)
+Key_Alt_F6 = QKeyCombination(Qt.AltModifier, Qt.Key_F6)
+Key_Alt_F7 = QKeyCombination(Qt.AltModifier, Qt.Key_F7)
+Key_Alt_F8 = QKeyCombination(Qt.AltModifier, Qt.Key_F8)
+Key_Alt_F9 = QKeyCombination(Qt.AltModifier, Qt.Key_F9)
+Key_Alt_F10 = QKeyCombination(Qt.AltModifier, Qt.Key_F10)
+Key_Alt_F11 = QKeyCombination(Qt.AltModifier, Qt.Key_F11)
+Key_Alt_F12 = QKeyCombination(Qt.AltModifier, Qt.Key_F12)
+
+
+Key_Alt_1 = QKeyCombination(Qt.AltModifier, Qt.Key_1)
+Key_Alt_2 = QKeyCombination(Qt.AltModifier, Qt.Key_2)
+Key_Alt_3 = QKeyCombination(Qt.AltModifier, Qt.Key_3)
+Key_Alt_4 = QKeyCombination(Qt.AltModifier, Qt.Key_4)
+Key_Alt_5 = QKeyCombination(Qt.AltModifier, Qt.Key_5)
+Key_Alt_6 = QKeyCombination(Qt.AltModifier, Qt.Key_6)
+Key_Alt_7 = QKeyCombination(Qt.AltModifier, Qt.Key_7)
+Key_Alt_8 = QKeyCombination(Qt.AltModifier, Qt.Key_8)
+Key_Alt_9 = QKeyCombination(Qt.AltModifier, Qt.Key_9)
+Key_Alt_0 = QKeyCombination(Qt.AltModifier, Qt.Key_0)
+
+
+Key_Alt_A = QKeyCombination(Qt.AltModifier, Qt.Key_A)
+Key_Alt_B = QKeyCombination(Qt.AltModifier, Qt.Key_B)
+Key_Alt_C = QKeyCombination(Qt.AltModifier, Qt.Key_C)
+Key_Alt_D = QKeyCombination(Qt.AltModifier, Qt.Key_D)
+Key_Alt_E = QKeyCombination(Qt.AltModifier, Qt.Key_E)
+Key_Alt_F = QKeyCombination(Qt.AltModifier, Qt.Key_F)
+Key_Alt_G = QKeyCombination(Qt.AltModifier, Qt.Key_G)
+Key_Alt_H = QKeyCombination(Qt.AltModifier, Qt.Key_H)
+Key_Alt_I = QKeyCombination(Qt.AltModifier, Qt.Key_I)
+Key_Alt_J = QKeyCombination(Qt.AltModifier, Qt.Key_J)
+Key_Alt_K = QKeyCombination(Qt.AltModifier, Qt.Key_K)
+Key_Alt_L = QKeyCombination(Qt.AltModifier, Qt.Key_L)
+Key_Alt_M = QKeyCombination(Qt.AltModifier, Qt.Key_M)
+Key_Alt_N = QKeyCombination(Qt.AltModifier, Qt.Key_N)
+Key_Alt_O = QKeyCombination(Qt.AltModifier, Qt.Key_O)
+Key_Alt_P = QKeyCombination(Qt.AltModifier, Qt.Key_P)
+Key_Alt_Q = QKeyCombination(Qt.AltModifier, Qt.Key_Q)
+Key_Alt_R = QKeyCombination(Qt.AltModifier, Qt.Key_R)
+Key_Alt_S = QKeyCombination(Qt.AltModifier, Qt.Key_S)
+Key_Alt_T = QKeyCombination(Qt.AltModifier, Qt.Key_T)
+Key_Alt_U = QKeyCombination(Qt.AltModifier, Qt.Key_U)
+Key_Alt_V = QKeyCombination(Qt.AltModifier, Qt.Key_V)
+Key_Alt_W = QKeyCombination(Qt.AltModifier, Qt.Key_W)
+Key_Alt_X = QKeyCombination(Qt.AltModifier, Qt.Key_X)
+Key_Alt_Y = QKeyCombination(Qt.AltModifier, Qt.Key_Y)
+Key_Alt_Z = QKeyCombination(Qt.AltModifier, Qt.Key_Z)
+
+Key_Alt_Colon = QKeyCombination(Qt.AltModifier, Qt.Key_Colon)
+Key_Alt_Semicolon = QKeyCombination(Qt.AltModifier, Qt.Key_Semicolon)
+Key_Alt_Comma = QKeyCombination(Qt.AltModifier, Qt.Key_Comma)
+Key_Alt_Period = QKeyCombination(Qt.AltModifier, Qt.Key_Period)
+Key_Alt_Slash = QKeyCombination(Qt.AltModifier, Qt.Key_Slash)
+Key_Alt_Backslash = QKeyCombination(Qt.AltModifier, Qt.Key_Backslash)
+Key_Alt_At = QKeyCombination(Qt.AltModifier, Qt.Key_At)
+Key_Alt_Minus = QKeyCombination(Qt.AltModifier, Qt.Key_Minus)
+Key_Alt_Bar = QKeyCombination(Qt.AltModifier, Qt.Key_Bar)
+Key_Alt_Asciicircum = QKeyCombination(Qt.AltModifier, Qt.Key_AsciiCircum)
+Key_Alt_BracketLeft = QKeyCombination(Qt.AltModifier, Qt.Key_BracketLeft)
+Key_Alt_BracketRight = QKeyCombination(Qt.AltModifier, Qt.Key_BracketRight)
+
+
+
+Key_Alt_Control_F1 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F1)
+Key_Alt_Control_F2 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F2)
+Key_Alt_Control_F3 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F3)
+Key_Alt_Control_F4 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F4)
+Key_Alt_Control_F5 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F5)
+Key_Alt_Control_F6 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F6)
+Key_Alt_Control_F7 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F7)
+Key_Alt_Control_F8 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F8)
+Key_Alt_Control_F9 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F9)
+Key_Alt_Control_F10 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F10)
+Key_Alt_Control_F11 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F11)
+Key_Alt_Control_F12 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F12)
+
+
+Key_Alt_Control_1 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_1)
+Key_Alt_Control_2 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_2)
+Key_Alt_Control_3 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_3)
+Key_Alt_Control_4 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_4)
+Key_Alt_Control_5 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_5)
+Key_Alt_Control_6 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_6)
+Key_Alt_Control_7 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_7)
+Key_Alt_Control_8 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_8)
+Key_Alt_Control_9 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_9)
+Key_Alt_Control_0 = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_0)
+
+
+Key_Alt_Control_A = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_A)
+Key_Alt_Control_B = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_B)
+Key_Alt_Control_C = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_C)
+Key_Alt_Control_D = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_D)
+Key_Alt_Control_E = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_E)
+Key_Alt_Control_F = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_F)
+Key_Alt_Control_G = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_G)
+Key_Alt_Control_H = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_H)
+Key_Alt_Control_I = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_I)
+Key_Alt_Control_J = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_J)
+Key_Alt_Control_K = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_K)
+Key_Alt_Control_L = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_L)
+Key_Alt_Control_M = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_M)
+Key_Alt_Control_N = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_N)
+Key_Alt_Control_O = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_O)
+Key_Alt_Control_P = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_P)
+Key_Alt_Control_Q = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Q)
+Key_Alt_Control_R = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_R)
+Key_Alt_Control_S = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_S)
+Key_Alt_Control_T = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_T)
+Key_Alt_Control_U = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_U)
+Key_Alt_Control_V = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_V)
+Key_Alt_Control_W = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_W)
+Key_Alt_Control_X = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_X)
+Key_Alt_Control_Y = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Y)
+Key_Alt_Control_Z = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Z)
+
+Key_Alt_Control_Colon = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Colon)
+Key_Alt_Control_Semicolon = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Semicolon)
+Key_Alt_Control_Comma = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Comma)
+Key_Alt_Control_Period = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Period)
+Key_Alt_Control_Slash = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Slash)
+Key_Alt_Control_Backslash = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Backslash)
+Key_Alt_Control_At = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_At)
+Key_Alt_Control_Minus = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Minus)
+Key_Alt_Control_Bar = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_Bar)
+Key_Alt_Control_Asciicircum = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_AsciiCircum)
+Key_Alt_Control_BracketLeft = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_BracketLeft)
+Key_Alt_Control_BracketRight = QKeyCombination(Qt.AltModifier|Qt.ControlModifier, Qt.Key_BracketRight)
+
+
+
 Key_Control_F3 = QKeyCombination(Qt.ControlModifier, Qt.Key_F3)
 KEYNAMETEXT = 0
 DISPLAYTEXT = 1
@@ -441,3 +578,13 @@ SETK = SHIFTMODIFIERS_ENUMS_TO_KEYS = {Qt.Key_Exclam: Qt.Key_1, Qt.Key_QuoteDbl:
                                         Qt.Key_Asterisk: Qt.Key_Colon, Qt.Key_BraceLeft: Qt.Key_BracketLeft, Qt.Key_BraceRight: Qt.Key_BracketRight, Qt.Key_QuoteLeft: Qt.Key_At,
                                        Qt.Key_AsciiTilde: Qt.Key_AsciiCircum, Qt.Key_Plus:Qt.Key_Semicolon, Qt.Key_Question: Qt.Key_Slash, Qt.Key_Equal: Qt.Key_Minus,
                                         Qt.Key_Underscore: Qt.Key_Backslash, Qt.Key_Less:Qt.Key_Comma, Qt.Key_Greater: Qt.Key_Period}
+
+
+AK = ALTMODIFIERS_KEYCOMBINATION = [Key_Alt_A, Key_Alt_B, Key_Alt_C, Key_Alt_D, Key_Alt_E, Key_Alt_F, Key_Alt_G, Key_Alt_H, Key_Alt_I, Key_Alt_J, Key_Alt_K, Key_Alt_L, Key_Alt_M, Key_Alt_N, Key_Alt_O, Key_Alt_P, Key_Alt_Q, Key_Alt_R, Key_Alt_S, Key_Alt_T,
+                  Key_Alt_U, Key_Alt_V, Key_Alt_W, Key_Alt_X, Key_Alt_Y, Key_Alt_Z, Key_Alt_Colon, Key_Alt_Semicolon, Key_Alt_Comma, Key_Alt_Period, Key_Alt_Slash, Key_Alt_Backslash, Key_Alt_At, Key_Alt_Minus, Key_Alt_Bar,
+                  Key_Alt_Asciicircum, Key_Alt_BracketLeft, Key_Alt_BracketRight]
+
+AKC = ALTMODIFIERS_CONTROLMODIFIERS_KEYCOMBINATION = [Key_Alt_Control_A, Key_Alt_Control_B, Key_Alt_Control_C, Key_Alt_Control_D, Key_Alt_Control_E, Key_Alt_Control_F, Key_Alt_Control_G, Key_Alt_Control_H, Key_Alt_Control_I, Key_Alt_Control_J, Key_Alt_Control_K, Key_Alt_Control_L, Key_Alt_Control_M, Key_Alt_Control_N, Key_Alt_Control_O, Key_Alt_Control_P, Key_Alt_Control_Q, Key_Alt_Control_R, Key_Alt_Control_S, Key_Alt_Control_T,
+                  Key_Alt_Control_U, Key_Alt_Control_V, Key_Alt_Control_W, Key_Alt_Control_X, Key_Alt_Control_Y, Key_Alt_Control_Z, Key_Alt_Control_Colon, Key_Alt_Control_Semicolon, Key_Alt_Control_Comma, Key_Alt_Control_Period, Key_Alt_Control_Slash, Key_Alt_Control_Backslash, Key_Alt_Control_At, Key_Alt_Control_Minus, Key_Alt_Control_Bar,
+                  Key_Alt_Control_Asciicircum, Key_Alt_Control_BracketLeft, Key_Alt_Control_BracketRight]
+
