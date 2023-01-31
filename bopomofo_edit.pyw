@@ -748,7 +748,7 @@ class TextEdit(QTextEdit):
         db_path = os.path.join(
                 BASE_DIR, "keyboard_factory_db\\keyboard_mapper.sqlite3"
                 )
-        print(BASE_DIR, db_path)
+   
 
         with sqlite3.connect(db_path) as con:
         
